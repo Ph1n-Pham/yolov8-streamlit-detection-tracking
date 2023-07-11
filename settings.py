@@ -30,17 +30,17 @@ DEFAULT_DETECT_IMAGE = IMAGES_DIR / 'office_4_detected.jpg'
 
 # Videos config
 VIDEO_DIR = ROOT / 'videos'
-VIDEO_1_PATH = VIDEO_DIR / 'video_1.mp4'
-VIDEO_2_PATH = VIDEO_DIR / 'video_2.mp4'
-VIDEO_3_PATH = VIDEO_DIR / 'video_3.mp4'
-VIDEO_4_PATH = VIDEO_DIR / 'video_4.mp4'
-VIDEO_5_PATH = VIDEO_DIR / 'video_5.mp4'
+VIDEO_1_PATH = VIDEO_DIR / 'AbandonedCandidAfricanporcupine.mp4'
+VIDEO_2_PATH = VIDEO_DIR / 'BarrenSecondhandAcornwoodpecker-mobile.mp4'
+VIDEO_3_PATH = VIDEO_DIR / 'SlimyDependentIbadanmalimbe-mobile.mp4'
+#VIDEO_4_PATH = VIDEO_DIR / 'video_4.mp4'
+#VIDEO_5_PATH = VIDEO_DIR / 'video_5.mp4'
 VIDEOS_DICT = {
     'video_1': VIDEO_1_PATH,
     'video_2': VIDEO_2_PATH,
     'video_3': VIDEO_3_PATH,
-    'video_4': VIDEO_4_PATH,
-    'video_5': VIDEO_5_PATH,
+    #'video_4': VIDEO_4_PATH,
+    #'video_5': VIDEO_5_PATH,
 }
 
 # ML Model config
