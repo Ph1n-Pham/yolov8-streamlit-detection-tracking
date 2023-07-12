@@ -24,15 +24,15 @@ YOUTUBE = 'YouTube'
 SOURCES_LIST = [IMAGE, VIDEO, WEBCAM, RTSP, YOUTUBE]
 
 # Images config
-IMAGES_DIR = ROOT / 'images'
+IMAGES_DIR = str(ROOT / 'images')
 DEFAULT_IMAGE = IMAGES_DIR / 'office_4.jpg'
 DEFAULT_DETECT_IMAGE = IMAGES_DIR / 'office_4_detected.jpg'
-IMAGE_1_PATH = IMAGES_DIR / 'AbandonedAbandonedFurseal_mp4-1_jpg.rf.b58e5acde13cfc780a015d6bc0a6386d.jpg'
-IMAGE_2_PATH = IMAGES_DIR / 'AbandonedAbsoluteGoldfinch_mp4-4_jpg.rf.ac988d297800cd8b322613668200a0ac.jpg'
-IMAGE_3_PATH = IMAGES_DIR / 'AbandonedBackGnu_mp4-3_jpg.rf.ae9d35cc08343aa823415c0f6acec54b.jpg'
-IMAGE_4_PATH = IMAGES_DIR / 'BarrenSecondhandAcornwoodpecker_mp4-3_jpg.rf.67b37225576d99878640023e9f72fc27.jpg'
-IMAGE_5_PATH = IMAGES_DIR / 'ScalyPleasantAmazonparrot_mp4-0_jpg.rf.965787c98759006e494a540d83283073.jpg'
-IMAGE_6_PATH = IMAGES_DIR / 'ShadowyLightheartedGuernseycow_mp4-4_jpg.rf.ba610fb6e34b9cedcab084e37ba3b4a1.jpg'
+IMAGE_1_PATH = str(IMAGES_DIR / 'AbandonedAbandonedFurseal_mp4-1_jpg.rf.b58e5acde13cfc780a015d6bc0a6386d.jpg')
+IMAGE_2_PATH = str(IMAGES_DIR / 'AbandonedAbsoluteGoldfinch_mp4-4_jpg.rf.ac988d297800cd8b322613668200a0ac.jpg')
+IMAGE_3_PATH = str(IMAGES_DIR / 'AbandonedBackGnu_mp4-3_jpg.rf.ae9d35cc08343aa823415c0f6acec54b.jpg')
+IMAGE_4_PATH = str(IMAGES_DIR / 'BarrenSecondhandAcornwoodpecker_mp4-3_jpg.rf.67b37225576d99878640023e9f72fc27.jpg')
+IMAGE_5_PATH = str(IMAGES_DIR / 'ScalyPleasantAmazonparrot_mp4-0_jpg.rf.965787c98759006e494a540d83283073.jpg')
+IMAGE_6_PATH = str(IMAGES_DIR / 'ShadowyLightheartedGuernseycow_mp4-4_jpg.rf.ba610fb6e34b9cedcab084e37ba3b4a1.jpg')
 IMAGES_DICT = {
     'image_1': IMAGE_1_PATH,
     'image_2': IMAGE_2_PATH,
