@@ -53,8 +53,12 @@ if source_radio == settings.IMAGE:
     source_img = st.sidebar.file_uploader(
         "Choose an image...", type=("jpg", "jpeg", "png", 'bmp', 'webp'))
     if source_img is None:
-        source_img = st.sidebar.selectbox(
+        source_img_path = st.sidebar.selectbox(
             "Choose an image...", settings.IMAGES_DICT.keys())
+            # Convert the file to an opencv image.
+        file_bytes = np.asarray(bytearray(uploaded_file.read()), dtype=np.uint8)
+        opencv_image = cv2.imdecode(file_bytes, 1)
+        source_img = PIL.Image.open(source_img_path)
     
     
     col1, col2 = st.columns(2)
