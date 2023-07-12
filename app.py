@@ -24,8 +24,9 @@ st.title("🤺📸 Fencing Segmentation using YOLOv8")
 st.sidebar.header("ML Model Config")
 
 # Model Options
-model_type = st.sidebar.radio(
-    "Select Task", ['Segmentation', 'Detection'])
+# model_type = st.sidebar.radio(
+#     "Select Task", ['Segmentation', 'Detection'])
+model_type = 'Segmentation'
 
 confidence = float(st.sidebar.slider(
     "Select Model Confidence", 5, 100, 20)) / 100
