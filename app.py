@@ -52,8 +52,9 @@ source_img = None
 if source_radio == settings.IMAGE:
     source_img = st.sidebar.file_uploader(
         "Choose an image...", type=("jpg", "jpeg", "png", 'bmp', 'webp'))
-    source_img = st.sidebar.selectbox(
-        "Choose an image...", settings.IMAGES_DICT.keys())
+    if source_img is None:
+        source_img = st.sidebar.selectbox(
+            "Choose an image...", settings.IMAGES_DICT.keys())
     
     
     col1, col2 = st.columns(2)
