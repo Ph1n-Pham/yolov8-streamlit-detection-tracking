@@ -35,11 +35,11 @@ IMAGE_5_PATH = IMAGES_DIR / 'ScalyPleasantAmazonparrot_mp4-0_jpg.rf.965787c98759
 IMAGE_6_PATH = IMAGES_DIR / 'ShadowyLightheartedGuernseycow_mp4-4_jpg.rf.ba610fb6e34b9cedcab084e37ba3b4a1.jpg'
 IMAGES_DICT = {
     'image_1': str(IMAGE_1_PATH),
-    'image_2': IMAGE_2_PATH,
-    'image_3': IMAGE_3_PATH,
-    'image_4': IMAGE_4_PATH,
-    'image_5': IMAGE_5_PATH,
-    'image_6': IMAGE_6_PATH,
+    'image_2': str(IMAGE_2_PATH),
+    'image_3': str(IMAGE_3_PATH),
+    'image_4': str(IMAGE_4_PATH),
+    'image_5': str(IMAGE_5_PATH),
+    'image_6': str(IMAGE_6_PATH),
 }
 
 
