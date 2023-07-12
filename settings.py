@@ -32,7 +32,7 @@ IMAGE_2_PATH = IMAGES_DIR / 'BarrenSecondhandAcornwoodpecker-mobile.mp4'
 IMAGE_3_PATH = IMAGES_DIR / 'SlimyDependentIbadanmalimbe-mobile.mp4'
 #IMAGE_4_PATH = IMAGES_DIR / 'video_4.mp4'
 #IMAGE_5_PATH = IMAGES_DIR / 'video_5.mp4'
-IMAGE_DICT = {
+IMAGES_DICT = {
     'image_1': IMAGE_1_PATH,
     'image_2': IMAGE_2_PATH,
     'image_3': IMAGE_3_PATH,
