@@ -1,7 +1,7 @@
 opencv-contrib-python-headless
 ultralytics
-streamlit==1.10.0
-streamlit_webrtc==0.20.0
+streamlit==1.24.0
+streamlit_webrtc==0.34.1
 streamlit.report_thread
 numpy==1.23.0
 tensorflow
