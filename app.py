@@ -25,10 +25,10 @@ st.sidebar.header("ML Model Config")
 
 # Model Options
 model_type = st.sidebar.radio(
-    "Select Task", ['Detection', 'Segmentation'])
+    "Select Task", ['Segmentation', 'Detection'])
 
 confidence = float(st.sidebar.slider(
-    "Select Model Confidence", 25, 100, 40)) / 100
+    "Select Model Confidence", 5, 100, 20)) / 100
 
 # Selecting Detection Or Segmentation
 if model_type == 'Detection':
