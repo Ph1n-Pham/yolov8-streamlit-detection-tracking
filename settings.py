@@ -27,17 +27,19 @@ SOURCES_LIST = [IMAGE, VIDEO, WEBCAM, RTSP, YOUTUBE]
 IMAGES_DIR = ROOT / 'images'
 DEFAULT_IMAGE = IMAGES_DIR / 'office_4.jpg'
 DEFAULT_DETECT_IMAGE = IMAGES_DIR / 'office_4_detected.jpg'
-IMAGE_1_PATH = IMAGES_DIR / 'AbandonedCandidAfricanporcupine.mp4'
-IMAGE_2_PATH = IMAGES_DIR / 'BarrenSecondhandAcornwoodpecker-mobile.mp4'
-IMAGE_3_PATH = IMAGES_DIR / 'SlimyDependentIbadanmalimbe-mobile.mp4'
-#IMAGE_4_PATH = IMAGES_DIR / 'video_4.mp4'
-#IMAGE_5_PATH = IMAGES_DIR / 'video_5.mp4'
+IMAGE_1_PATH = IMAGES_DIR / 'image_1.jpg'
+IMAGE_2_PATH = IMAGES_DIR / 'image_2.jpg'
+IMAGE_3_PATH = IMAGES_DIR / 'image_3.jpg'
+IMAGE_4_PATH = IMAGES_DIR / 'image_4.jpg'
+IMAGE_5_PATH = IMAGES_DIR / 'image_5.jpg'
+IMAGE_6_PATH = IMAGES_DIR / 'image_6.jpg'
 IMAGES_DICT = {
     'image_1': IMAGE_1_PATH,
     'image_2': IMAGE_2_PATH,
     'image_3': IMAGE_3_PATH,
-    #'video_4': VIDEO_4_PATH,
-    #'video_5': VIDEO_5_PATH,
+    'image_4': IMAGE_4_PATH,
+    'image_5': IMAGE_5_PATH,
+    'image_6': IMAGE_6_PATH,
 }
 
 
