@@ -3,5 +3,6 @@ streamlit
 Pillow==9.5.0
 pafy
 youtube-dl
+streamlit_webrtc
 opencv-python-headless
 opencv-contrib-python
