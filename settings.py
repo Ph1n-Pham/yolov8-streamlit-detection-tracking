@@ -34,7 +34,7 @@ IMAGE_4_PATH = IMAGES_DIR / 'image_4.jpg'
 IMAGE_5_PATH = IMAGES_DIR / 'image_5.jpg'
 IMAGE_6_PATH = IMAGES_DIR / 'image_6.jpg'
 IMAGES_DICT = {
-    'image_1': IMAGE_1_PATH,
+    'image_1': "images/image_1.jpg",
     'image_2': IMAGE_2_PATH,
     'image_3': IMAGE_3_PATH,
     'image_4': IMAGE_4_PATH,
