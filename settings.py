@@ -27,6 +27,20 @@ SOURCES_LIST = [IMAGE, VIDEO, WEBCAM, RTSP, YOUTUBE]
 IMAGES_DIR = ROOT / 'images'
 DEFAULT_IMAGE = IMAGES_DIR / 'office_4.jpg'
 DEFAULT_DETECT_IMAGE = IMAGES_DIR / 'office_4_detected.jpg'
+IMAGE_1_PATH = IMAGES_DIR / 'AbandonedCandidAfricanporcupine.mp4'
+IMAGE_2_PATH = IMAGES_DIR / 'BarrenSecondhandAcornwoodpecker-mobile.mp4'
+IMAGE_3_PATH = IMAGES_DIR / 'SlimyDependentIbadanmalimbe-mobile.mp4'
+#IMAGE_4_PATH = IMAGES_DIR / 'video_4.mp4'
+#IMAGE_5_PATH = IMAGES_DIR / 'video_5.mp4'
+IMAGE_DICT = {
+    'image_1': IMAGE_1_PATH,
+    'image_2': IMAGE_2_PATH,
+    'image_3': IMAGE_3_PATH,
+    #'video_4': VIDEO_4_PATH,
+    #'video_5': VIDEO_5_PATH,
+}
+
+
 
 # Videos config
 VIDEO_DIR = ROOT / 'videos'
