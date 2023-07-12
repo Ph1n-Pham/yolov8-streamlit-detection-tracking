@@ -3,7 +3,7 @@ ultralytics
 streamlit==1.10.0
 streamlit_webrtc==0.20.0
 streamlit.report_thread
-numpy==1.19.5
+numpy==1.23.0
 tensorflow
 streamlit
 
